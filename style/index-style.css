@@ -6,18 +6,47 @@
     }
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* shared style */
-.display-flex{
-    display: flex;
+
+.margin{
+    
+    padding: 25px 200px;
 }
 
 
 
+.display-flex{
+    display: flex;
+}
 
+.align-item{
+    align-items: center;
 
+}
+
+.btn{
+    background:linear-gradient(to top right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10000px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    
+    
+}
 
 
 /* navbar-style */
+
+
 
 nav{
     /* border: 1px solid red; */
@@ -28,7 +57,121 @@ nav{
 
 .nav-item{
     list-style: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.center-align{
+.nav-item{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+header{
+    background: linear-gradient(rgba(26, 11, 46, 1), rgba(65, 37, 103, 1));
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo-tech{
+    color: #FFFFFF;
+}
+
+.logo-wave{
+     color:linear-gradient( rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+}
+
+
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    
+   
+}
+
+.circle{
+    position: relative;
+    width: 450px;
+    height: 350px;
+    margin: 0 auto;
     align-items: center;
+    /* max-width: 1200px */
+}
+.circle-grad{
+    width: 100%;
+    padding-top: 100px;
+    
+}
+
+.mic{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+}
+
+.max-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+     background-color: #FFFFFF;
+
+     
+}
+
+
+/* .banner-content{
+    padding-top: 300px;
+    
+    border: 1px solid red;
+    
+    
+} */
+
+/* .tech-width{
+    max-width: 900px;
+    border: 1px solid red;
+} */
+
+.header-tech{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.header-para{
+
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+    white-space: nowrap;
+    padding-top: 8px;
+    
+}
+
+.center-btn{
+
+    text-align: center;
+}
+
+
+.btn-1{
+
+    background:linear-gradient(to top right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10000px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   margin-top: 24px;
 }
