@@ -175,3 +175,67 @@ main{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
    margin-top: 24px;
 }
+
+
+/* about section */
+
+#about-container{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.about-info{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.about-info h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+.about-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    
+}
+
+
+hr{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 80px  auto;
+
+    border: 1px solid red;
+}
+
+.about-card-info{
+    text-align: center;
+}
+
+.about-card-info h1{
+    font-size: 3rem;
+    color: #00FF88;
+}
+.about-card-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
