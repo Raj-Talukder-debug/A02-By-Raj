@@ -133,7 +133,7 @@ header{
 }
 
 .max-width{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 main{
@@ -158,7 +158,7 @@ main{
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     padding-top: 8px;
     
@@ -501,6 +501,45 @@ hr{
 @media screen and (max-width:576px) {
 
 
+nav{
+    width: 100%;
+}
+
+
+
+.btn{
+    display: none;
+}
+.hamburger-menu{
+    display: block;
+}
+.nav-item{
+    display: none;
+}
+
+
+#banner{
+    width: 100%;
+}
+.max-width{
+    width: 90%;
+}
+.circle{
+    width: 350px;
+}
+
+.mic{
+    top: 76%;
+    width: 137px;
+}
+
+.header-tech{
+    font-size: 2.5rem;
+}
+
+
+
+
 #about-container{
     max-width: 100%;
 }
@@ -540,6 +579,37 @@ hr{
     grid-template-rows: auto;
     gap: 30px;
    
+}
+
+#podcast-section{
+    width: 100%;
+    height: auto;
+}
+
+.podcast-title{
+    font-size: 2rem;
+}
+.episode-container{
+
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 30px;
+}
+.host-card{
+    flex-direction: column;
+    margin: 10px 30px ;
+}
+
+.host-details h3{
+    text-align: center;
+}
+
+.host-details p{
+    text-align: center;
+}
+
+#footer-section{
+    width: 100%;
+    margin-top: -20px;
 }
 
 
