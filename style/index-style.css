@@ -333,131 +333,53 @@ hr{
 }
 
 
-#last-section{
-    
+/* podcast-section */
+
+#podcast-section{
+
     background-color: #1A0B2E;
     max-width: 1600px;
     height: 1276px;
     margin: 0 auto;
     padding-top: 120px;
-    
 }
 
-
-.featured-content{
-    max-width: 1200px;
-    /* border: 1px solid red; */
-    margin: 0 auto;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-    
-}
-
-
-.featured-video{
+.episode-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid yellow; */
-    
-    
+    border: 1px solid tomato;
 }
 
-
-
-
-
-.video-color{
-    background-color: rgba(53, 17, 101, 0.4);
-    border: none;
-    
+.podcast-card{
+    background-color: #250D44;
+    border-radius: 12px;
+    text-align: left;
 }
 
-.radius{
-    border-radius: 30px;
+.podcast-content{
+    padding: 20px;
 }
-
-.video-1 h4{
-    color: #FFFFFF;
+.podcast-content h3{
     font-size: 1.5rem;
     font-weight: 700;
-    text-align:justify;
-    margin: 24px 10px;
-}
-.video-1 p{
     color: #FFFFFF;
-    font-size: 1rem;
+    padding: 10px;
+}
+.podcast-content p{
+   font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    text-align:justify;
-    margin: 24px 10px;
-}
-
-.clock{
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    
-}
-.clock img{
-    width: 10%;
-    height: 10%;
-}
-
-.box-shadow{
-    border: 2px solid rgb(37, 13, 68);
-    box-shadow: 0 4 0 rgba(37, 13, 68, 0.034);
-}
-
-.host{
-    max-width: 1200px;
-    height: 280px;
-    margin: 0 auto;
-    background-color: rgba(53, 17, 101, 0.4);
-    border-radius: 40px;
-    /* border: 1px solid red; */
-}
-
-
-.exception{
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 60px;
-    font-size: 3rem;
-    font-weight: 800;
     color: #FFFFFF;
-}
-.display-flex-1{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-.display-flex-1 img{
-    /* margin-left: 150px; */
-    margin: 0 auto;
-    padding-top: 30px;
-    
+    padding: 10px;
 }
 
-.host-name h3{
-    font-size: 2rem;
-    font-weight: 700;
-    
-    color: #FFFFFF;
-}
-.host-name p{
+.duration{
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 20px;
-    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 24px;
+    color: #00FF88;
+    padding: 10px;
 }
-
-/* .img-circle{
-    border: 1px solid #533C72;
-    
-} */
-
